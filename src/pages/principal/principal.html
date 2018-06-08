@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+      <button ion-button menuToggle icon-only>
+          <ion-icon name='menu'></ion-icon>
+        </button>
+    <ion-title>
+      Ejes temáticos
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <img src="assets/imgs/delmonte.png" />
+  <ion-list >
+    <ion-card (click)="openProposal(item)"  *ngFor="let item of information">
+      <img src="assets/imgs/ejes/{{item.image}}" />
+      <ion-card-content>
+      </ion-card-content>
+    </ion-card>
+  </ion-list>
+</ion-content>

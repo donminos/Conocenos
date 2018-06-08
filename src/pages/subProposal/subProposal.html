@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Propuestas
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-card (click)=openDescription(item) *ngFor="let item of information">
+      <img src="assets/imgs/propuestas/{{item.image}}" />
+      <ion-card-content>
+        <p>
+          {{item.title}}
+        </p>
+      </ion-card-content>
+    </ion-card>    
+  </ion-list>
+</ion-content>

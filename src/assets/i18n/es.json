@@ -1,0 +1,14 @@
+{
+  "LOGIN": "Acceso",
+  "USERNAME": "Usuario",
+  "PASSWORD": "Contraseña",
+  "WELCOME": "Bienvenido",
+  "POLICES":"Polizas",
+  "REGISTRY":"Registro",
+  "DURATION":"Duración",
+  "HELP":"Ayuda",
+  "PLEASE_WAIT":"Espera un momento...",
+  "INFORMATION":"Información",
+  "ERROR":"Error",
+  "ACCEPT":"Aceptar"
+}
