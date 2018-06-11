@@ -1,5 +1,5 @@
 {
-  "name": "Xochimilco",
+  "name": "Reconstruyendo",
   "version": "0.0.1",
   "author": "tdmobile",
   "homepage": "http://www.tdmobile.com.mx",
@@ -26,6 +26,7 @@
     "@ionic-native/geolocation": "^4.7.0",
     "@ionic-native/http": "^4.7.0",
     "@ionic-native/onesignal": "^4.7.0",
+    "@ionic-native/social-sharing": "^4.7.0",
     "@ionic-native/splash-screen": "4.6.0",
     "@ionic-native/status-bar": "4.6.0",
     "@ionic-native/uid": "^4.7.0",
@@ -33,7 +34,6 @@
     "@ionic/storage": "2.1.3",
     "@ngx-translate/core": "^9.1.1",
     "@ngx-translate/http-loader": "^3.0.1",
-    "cordova-android": "7.0.0",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-headercolor": "^1.0.0",
     "cordova-plugin-ionic-keyboard": "^2.1.2",
@@ -42,6 +42,8 @@
     "cordova-plugin-statusbar": "^2.4.2",
     "cordova-plugin-uid": "^1.3.0",
     "cordova-plugin-whitelist": "^1.3.3",
+    "cordova-plugin-x-socialsharing": "^5.4.0",
+    "es6-promise-plugin": "^4.2.2",
     "ionic-angular": "3.9.2",
     "ionic-native": "^2.9.0",
     "ionicons": "3.0.0",
@@ -64,7 +66,8 @@
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-statusbar": {},
       "cordova-plugin-headercolor": {},
-      "onesignal-cordova-plugin": {}
+      "onesignal-cordova-plugin": {},
+      "cordova-plugin-x-socialsharing": {}
     },
     "platforms": [
       "android"

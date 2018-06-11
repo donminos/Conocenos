@@ -23,9 +23,9 @@ export class SubProposalPage {
   }
 
   openDescription(item) {
-    this.navCtrl.push(DescriptionProposalPage, {
+    /*this.navCtrl.push(DescriptionProposalPage, {
       data: item
-    });
+    });*/
   }
 
 }

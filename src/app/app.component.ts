@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import {  Platform, LoadingController } from 'ionic-angular';
+import { Platform, LoadingController } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { isCordovaAvailable } from '../common/is-cordova-available';
-import { AndroidPermissions } from '@ionic-native/android-permissions';
 import { OneSignal, OSNotificationPayload } from '@ionic-native/onesignal';
 import { oneSignalAppId, sender_id } from '../config';
+import { SocialSharing } from '@ionic-native/social-sharing';
 
 import { TranslateService } from '@ngx-translate/core';
 import { WelcomePage } from '../pages/welcome/welcome';
@@ -18,21 +18,20 @@ import { VideosPage } from '../pages/videos/videos';
   templateUrl: 'app.html'
 })
 
-
 export class MyApp {
 
   rootPage: any = HomePage;
 
   async afterLogin() {
-    if(new Date()>=new Date('2018-06-27 11:59:00')){
+    if (new Date() >= new Date('2018-06-27 23:00:00')) {
       this.rootPage = WelcomePage;
-    }else{
+    } else {
       this.rootPage = HomePage;
     }
   }
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, translate: TranslateService,
-    public loadingCtrl: LoadingController, private androidPermissions: AndroidPermissions,
+    public loadingCtrl: LoadingController, private socialSharing: SocialSharing,
     private oneSignal: OneSignal) {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
@@ -65,16 +64,24 @@ export class MyApp {
     alert('Push opened: ' + payload.body);
   }
 
-  sentPropostal(){
+  goToPropostal() {
     this.rootPage = PrincipalPage;
   }
-  sentHome(){
+  goToHome() {
     this.rootPage = HomePage;
   }
-  sentVideos(){
+  goToVideos() {
     this.rootPage = VideosPage;
   }
+  sendMessageFacebook() {
 
+    // Share via email
+    this.socialSharing.share('Mi voto es por Gabriel Del Monte','Mi voto', 'https://reconstruyendoxochimilco.org/images/logo/gdm-logotipo-vertical-descriptivo-color.png', 'https://reconstruyendoxochimilco.org').then(() => {
+      // Success!
+    }).catch(() => {
+      // Error!
+    });
+  }
 
 }
 

@@ -8,15 +8,18 @@
     </ion-header>
     <ion-content>
         <ion-list>
-                <button ion-item menuClose (click)="sentHome()">
-                        Inicio
-                    </button>
-                <button ion-item menuClose (click)="sentPropostal()">
-                    Problematica en Xochimilco
-                </button>
-                <button ion-item menuClose (click)="sentVideos()">
-                        Videos
-                    </button>
+            <button ion-item menuClose (click)="goToHome()">
+                Inicio
+            </button>
+            <button ion-item menuClose (click)="goToPropostal()">
+                Problematica en Xochimilco
+            </button>
+            <button ion-item menuClose (click)="goToVideos()">
+                Videos
+            </button>
+            <button ion-item menuClose (click)="sendMessageFacebook()">
+                Compartir
+            </button>
 
         </ion-list>
     </ion-content>
