@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Platform, LoadingController } from 'ionic-angular';
+import { Platform, LoadingController,AlertController } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { isCordovaAvailable } from '../common/is-cordova-available';
@@ -32,7 +32,7 @@ export class MyApp {
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, translate: TranslateService,
     public loadingCtrl: LoadingController, private socialSharing: SocialSharing,
-    private oneSignal: OneSignal) {
+    private oneSignal: OneSignal,private alertCtrl: AlertController) {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
@@ -57,11 +57,22 @@ export class MyApp {
 
   }
   private onPushReceived(payload: OSNotificationPayload) {
-    alert('Push recevied:' + payload.body);
+    let alert = this.alertCtrl.create({
+      title: payload.title,
+      subTitle: payload.body,
+      buttons: ['Cerrar']
+    });
+    alert.present();
+    
   }
 
   private onPushOpened(payload: OSNotificationPayload) {
-    alert('Push opened: ' + payload.body);
+    let alert = this.alertCtrl.create({
+      title: payload.title,
+      subTitle: payload.body,
+      buttons: ['Cerrar']
+    });
+    alert.present();
   }
 
   goToPropostal() {
