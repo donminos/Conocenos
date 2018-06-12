@@ -95,8 +95,8 @@ export function Information(opc) {
         ];
         
         case 10: return [
-            { "id": 1, "title": "Establecer el consejo ciudadano anticorrupción, el cual mediante los mecanismos jurídicos y administrativos podrán dar seguimiento al ejercicio gubernamental.", "image": "Establecer el consejo ciudadano anticorrupcion.jpg" },
-            { "id": 2, "title": "Transparentar e informar a los distintos consejos de la demarcación las acciones gubernamentales y de ejercicio presupuestal en los sectores de los cuales forman parte.", "image": "atenderdemandas.jpg" },
+            { "id": 1, "title": "Establecer el consejo ciudadano anticorrupción, el cual mediante los mecanismos jurídicos y administrativos podrán dar seguimiento al ejercicio gubernamental.", "image": "consejociudadano.jpg" },
+            { "id": 2, "title": "Transparentar e informar a los distintos consejos de la demarcación las acciones gubernamentales y de ejercicio presupuestal en los sectores de los cuales forman parte.", "image": "comitevecinal.jpg" },
             { "id": 3, "title": "Cumplir en tiempo y forma con los informes que el titular del Órgano Administrativo debe otorgar al pleno de representación de los Comités Vecinales y Consejos de Pueblos de la Demarcación, conforme lo establecido en la Ley de Participación Ciudadana.", "image": "rendiciondecuentas.jpg" },
             { "id": 4, "title": "Certificar los procedimientos administrativos de atención a la ciudadanía, para una atención oportuna y eficaz.", "image": "certificacion.jpg" },
             { "id": 5, "title": "Invitar a la ciudadanía en general a formar parte del gobierno en áreas estratégicas a ciudadanos con el mejor perfil para encabezar las áreas de decisión gubernamental.", "image": "invitar a la ciudadania en general a formar parte del gobierno.jpeg" }
