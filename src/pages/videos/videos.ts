@@ -20,9 +20,6 @@ export class VideosPage {
     this.browserLang = translate.getBrowserLang();
     translate.use(this.browserLang.match(/en|es/) ? this.browserLang : 'es');
 
-    platform.registerBackButtonAction(() => {
-      this.navCtrl.setRoot(HomePage);
-    });
 
   }
 

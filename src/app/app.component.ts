@@ -87,7 +87,7 @@ export class MyApp {
   sendMessageFacebook() {
 
     // Share via email
-    this.socialSharing.share('Mi voto es por Gabriel Del Monte','Mi voto', 'https://reconstruyendoxochimilco.org/images/logo/gdm-logotipo-vertical-descriptivo-color.png', 'https://reconstruyendoxochimilco.org').then(() => {
+    this.socialSharing.share('Mi voto es por Gabriel Del Monte','Mi voto', 'https://reconstruyendoxochimilco.org/images/logo/gdm-logotipo-vertical-descriptivo-color.png', 'https://play.google.com/store/apps/details?id=information.tdmobile.com').then(() => {
       // Success!
     }).catch(() => {
       // Error!
