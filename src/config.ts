@@ -29,8 +29,8 @@ export function Information(opc) {
         case 2: return [
             { "id": 1, "title": "Programa permanente de capacitación y talleres para la generación de nuevos negocios emprendidos por madres solteras y personas de la tercera edad, fomentando el autoempleo.", "image": "generacion de nuevos negocios.jpg" },
             { "id": 2, "title": "Bolsa de trabajo en coordinación con las medianas y grandes empresas asentadas en Xochimilco, donde las prioridades de sus vacantes sean jóvenes xochimilcas fomentando un primer empleo bien remunerado y cercano a su domicilio.", "image": "bolsadetrabajo.jpg" },
-            { "id": 3, "title": " Vinculación de las micro, pequeñas y medianas empresas de Xochimilco con las otras en el interior del país que les permita un intercambio de experiencias, comercialización o bien complemento de cadenas productivas.", "image": "vinvulacionaempresas.jpg" },
-            { "id": 4, "title": " Fomentar el mercado tradicional.", "image": "desarrollo economico. fomentar el mercado tradicional.jpg" },
+            { "id": 3, "title": "Vinculación de las micro, pequeñas y medianas empresas de Xochimilco con las otras en el interior del país que les permita un intercambio de experiencias, comercialización o bien complemento de cadenas productivas.", "image": "vinvulacionaempresas.jpg" },
+            { "id": 4, "title": "Fomentar el mercado tradicional.", "image": "fomentarMercados.jpg" },
         ];
         case 3: return [
             { "id": 1, "title": "Mantenimiento a la infraestructura de los 11 embarcaderos de Xochimilco.", "image": "desarrollo y promocion turistica mantenimiento a los canales.jpg" },
@@ -55,7 +55,7 @@ export function Information(opc) {
             { "id": 3, "title": "Estacado de riveras.", "image": "estacadodecales.jpg" },
             { "id": 4, "title": "Retiro de fauna nociva (pesca de tilapia).", "image": "tilapia.jpg" },
             { "id": 5, "title": "Clausura y retiro de descargas de aguas negras.", "image": "clausurayretiroaguasnegras.jpg" },
-            { "id": 6, "title": "Introducción de sistemas de remediación de aguas en las zonas altamente contaminadas.", "image": "introduccion de sistemas de remediacion de aguas en las zonas altamente contaminadas.jpeg" },
+            { "id": 6, "title": "Introducción de sistemas de remediación de aguas en las zonas altamente contaminadas.", "image": "sistemasRemediacion.jpeg" },
             { "id": 7, "title": "Impulsar viveros locales con especies endémicas de la región.", "image": "conservacion del patrimonio cultural. impulsar viveros locales con especies endemicas de la region.jpg" },
             { "id": 8, "title": "Implementar acciones de reforestación con especies endémicas y en condiciones que garanticen el crecimiento exitoso del arbolado.", "image": "conservacion del patrimonio natural. implementar acciones de reforestacion.jpg" },
             { "id": 9, "title": "Inhibir la pérdida de suelo con vocación forestal o de agricultura por vivienda.", "image": "reforestacion.jpg" }
