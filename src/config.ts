@@ -43,7 +43,7 @@ export function Information(opc) {
             { "id": 1, "title": "Fomentar en las zonas altas la cosecha de agua pluvial.", "image": "Desarrollo sustentable. Fomentar en las zonas altas la cosecha de agua pluvial.jpg" },
             { "id": 2, "title": "Fomentar la implementación de nuevas técnicas y tecnologías innovadoras en la agricultura.", "image": "tecnicas y tecnologias innovadoras en la agricultura.jpg" },
             { "id": 3, "title": "Implementar políticas públicas de ahorro de energía eléctrica en domicilios, negocios y centros de trabajo.", "image": "ahorroenergia.jpg" },
-            { "id": 4, "title": "Fomentar el uso de transporte no motorizado.", "image": "bicicleta.jpg" },
+            { "id": 4, "title": "Fomentar el uso de transporte no motorizado.", "image": "bicicleta.jpeg" },
             { "id": 5, "title": "Implementar el programa de responsabilidad social y con el medio ambiente con medianas y pequeñas empresas, para mejorar sus prácticas en armonía con el medio ambiente.", "image": "ahorroempresa.jpg" },
             { "id": 6, "title": "Salvaguardar de descargas domiciliarias las cuencas hidrológicas del Río Santiago y Río San Lucas.", "image": "riosantiago.jpg" },
             { "id": 7, "title": "Generar el Plan Integral de Saneamiento del Vaso Regulador San Lucas.", "image": "Generar el Plan Integral de Saneamiento del Vaso Regulador San Lucas.jpeg" }
@@ -63,8 +63,7 @@ export function Information(opc) {
         
         case 6: return [
             { "id": 1, "title": "Reactivar como una vía alterna la avenida Acueducto, a través del derecho de vía, con lo cual se podrá dar mayor movilidad al oriente y poniente de la demarcación (Tulyehualco – La Noria).", "image": "acueductolanoria.jpg" },
-            { "id": 2, "title": "Establecer en dos etapas la ciclo vía La Noria (Sistema de Transportes Eléctricos) - Tulyehualco y Tulyehualco", "image": "ciclovia.jpg" },
-            { "id": 3, "title": "Tláhuac (Sistema de Transporte Metro).", "image": "metro.jpg" },
+            { "id": 2, "title": "Establecer en dos etapas la ciclo vía La Noria (Sistema de Transportes Eléctricos) - Tulyehualco y Tulyehualco - Tláhuac (sistema de transporte metro).", "image": "trenligero.jpeg" },
             { "id": 4, "title": "Atención inmediata a la Rehabilitación de la Carretera Xochimilco –Tulyehualco, atendiendo los socavones que se encuentran inhabilitando tan importante vía de comunicación.", "image": "atencion inmediata a la rehabilitacion de la carretera xochimilco tulyehualco, atendiendo los socavones.jpg" },
             { "id": 5, "title": "Establecer las acciones jurídicas necesarias para habilitar el derecho de vía para comunicar la continuación de la Avenida Muyuguarda con la Noria.", "image": "muyuguarda.jpg" }
         ];
